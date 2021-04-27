@@ -1,4 +1,13 @@
-module.exports = function tiny(string) {
-    if (typeof string !== "string") throw new TypeError("Tiny wants a string!");
-    return string.replace(/\s/g, "");
-  };
+var location={
+  
+}
+var myanmar={
+  welcome:function() {
+    console.log('Welcome from Myanmar');
+  },
+  bye:function(){
+    console.log('Bye Bye');
+  }
+}
+
+module.exports =myanmar;
